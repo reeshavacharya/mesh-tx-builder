@@ -1,0 +1,40 @@
+{
+  "name": "starter-next-ts-template",
+  "description": "A Mesh starter template",
+  "version": "0.1.0",
+  "private": true,
+  "author": "MeshJS",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@blockfrost/blockfrost-js": "^5.4.0",
+    "@emurgo/cardano-serialization-lib-asmjs": "^11.5.0",
+    "@emurgo/cardano-serialization-lib-nodejs": "11.0.0-rc.6",
+    "@meshsdk/core": "1.5.6",
+    "@meshsdk/react": "1.1.7",
+    "axios": "^1.5.0",
+    "cborg": "^4.0.3",
+    "next": "13.0.2",
+    "node-fetch": "^3.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "typescript": "4.8.4"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}
